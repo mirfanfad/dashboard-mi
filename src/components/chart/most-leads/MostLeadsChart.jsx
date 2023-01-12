@@ -85,7 +85,7 @@ const MostLeadsChart = ({ micareData }) => {
 			/>
 			<div className="position-absolute top-50 start-50 translate-middle text-center">
 				<p className="fs--1 mb-0 text-400 font-sans-serif fw-medium">Project</p>
-				<p className="fs-3 mb-0 font-sans-serif fw-medium mt-n2">New MiCare</p>
+				<p className="fs-1 mb-0 font-sans-serif fw-medium mt-n2">New MiCare</p>
 			</div>
 		</div>
 	);

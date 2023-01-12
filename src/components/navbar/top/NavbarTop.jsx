@@ -59,7 +59,7 @@ const NavbarTop = () => {
 				</button>
 			</Navbar.Toggle>
 
-			<Logo at="navbar-top" width={100} id="topLogo" />
+			<Logo at="navbar-top" width={80} id="topLogo" />
 
 			{/* <Navbar.Collapse in={navbarCollapsed} className="scrollbar pb-3 pb-lg-0">
 				<Nav navbar><NavbarTopDropDownMenus /></Nav>
