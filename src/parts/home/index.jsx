@@ -20,7 +20,7 @@ export default function Home() {
 				<Card.Body className="py-0">
 					<Flex justifyContent={"end"}>
 						{/* <span className={classNames("font-sans-serif", "h5")}>
-							Project New MiCare
+							Project Timeline
 						</span> */}
 						<span className={classNames("font-sans-serif", "h5")}>
 							{moment(new Date()).format("dddd, DD MMMM YYYY")}
