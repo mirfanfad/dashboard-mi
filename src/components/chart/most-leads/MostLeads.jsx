@@ -33,7 +33,7 @@ const MostLeads = () => {
 	const [totalSprint, setTotalSprint] = useState(micareData.length);
 	const [done, setDone] = useState(0);
 	const [onProgress, setOnProgress] = useState(0);
-	const [pending, setPending] = useState(0);
+	const [waiting, setWaiting] = useState(0);
 	const [endDate, setEndDate] = useState("");
 
 	const handleShowModal = (title, dueDate) => {
@@ -52,7 +52,7 @@ const MostLeads = () => {
 		);
 		setDone(micareData.filter((data) => data.value === 100).length);
 		setOnProgress(micareData.filter((data) => data.value > 0).length);
-		setPending(micareData.filter((data) => data.value === 0).length);
+		setWaiting(micareData.filter((data) => data.value === 0).length);
 		setEndDate(
 			micareData.reduce((max, obj) => {
 				const date = new Date(obj.duedate);
@@ -163,8 +163,8 @@ const MostLeads = () => {
 									xxl={3}
 									className="mb-xxl-1 d-flex flex-column align-items-center"
 								>
-									<h6>Pending</h6>
-									<h5 className=" text-info">{pending}</h5>
+									<h6>Waiting</h6>
+									<h5 className=" text-info">{waiting}</h5>
 									<h6 className="fw-light">Sprint</h6>
 								</Col>
 							</Row>
