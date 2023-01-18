@@ -42,7 +42,7 @@ const NavbarTop = () => {
 			})}
 			expand={topNavbarBreakpoint}
 		>
-			<Navbar.Toggle
+			{/* <Navbar.Toggle
 				className={classNames("toggle-icon-wrapper me-md-3 me-2", {
 					"d-lg-none": true,
 				})}
@@ -57,7 +57,7 @@ const NavbarTop = () => {
 						<span className="toggle-line" />
 					</span>
 				</button>
-			</Navbar.Toggle>
+			</Navbar.Toggle> */}
 
 			<Logo at="navbar-top" width={80} id="topLogo" />
 
