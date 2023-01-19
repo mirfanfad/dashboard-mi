@@ -30,7 +30,7 @@ const MostLeads = () => {
 	const [dueDate, setDueDate] = useState("");
 	const [onSchedule, setOnSchedule] = useState(0);
 	const [overtime, setOvertime] = useState(0);
-	const [totalSprint, setTotalSprint] = useState(micareData.length);
+	const [totalApps, setTotalApps] = useState(micareData.length);
 	const [done, setDone] = useState(0);
 	const [onProgress, setOnProgress] = useState(0);
 	const [waiting, setWaiting] = useState(0);
@@ -43,7 +43,7 @@ const MostLeads = () => {
 	};
 
 	useEffect(() => {
-		setTotalSprint(micareData.length);
+		setTotalApps(micareData.length);
 		setOnSchedule(
 			micareData.filter((data) => new Date(data.duedate) > new Date()).length
 		);
@@ -99,7 +99,7 @@ const MostLeads = () => {
 								>
 									<h6>On Schedule</h6>
 									<h5 className="text-primary">{onSchedule}</h5>
-									<h6 className="fw-light">Sprint</h6>
+									<h6 className="fw-light">Apps</h6>
 								</Col>
 								<Col
 									md={6}
@@ -108,7 +108,7 @@ const MostLeads = () => {
 								>
 									<h6>Overdue</h6>
 									<h5 className=" text-danger">{overtime}</h5>
-									<h6 className="fw-light">Sprint</h6>
+									<h6 className="fw-light">Apps</h6>
 								</Col>
 							</Row>
 						</Card.Body>
@@ -134,8 +134,8 @@ const MostLeads = () => {
 									xxl={12}
 									className="mb-xxl-1 d-flex flex-column align-items-center"
 								>
-									<h5>Total Sprint</h5>
-									<h4 className="text-primary">{totalSprint}</h4>
+									<h5>Total Apps</h5>
+									<h4 className="text-primary">{totalApps}</h4>
 								</Col>
 							</Row>
 							<hr />
@@ -147,7 +147,7 @@ const MostLeads = () => {
 								>
 									<h6>Done</h6>
 									<h5 className="text-success">{done}</h5>
-									<h6 className="fw-light">Sprint</h6>
+									<h6 className="fw-light">Apps</h6>
 								</Col>
 								<Col
 									md={6}
@@ -156,7 +156,7 @@ const MostLeads = () => {
 								>
 									<h6>On Progress</h6>
 									<h5 className="text-warning">{onProgress}</h5>
-									<h6 className="fw-light">Sprint</h6>
+									<h6 className="fw-light">Apps</h6>
 								</Col>
 								<Col
 									md={3}
@@ -165,7 +165,7 @@ const MostLeads = () => {
 								>
 									<h6>Waiting</h6>
 									<h5 className=" text-info">{waiting}</h5>
-									<h6 className="fw-light">Sprint</h6>
+									<h6 className="fw-light">Apps</h6>
 								</Col>
 							</Row>
 						</Card.Body>
