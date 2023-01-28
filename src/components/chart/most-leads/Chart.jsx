@@ -145,7 +145,9 @@ const Chart = ({ micareData }) => {
 		<div className="position-relative py-2">
 			<ReactEChartsCore
 				echarts={echarts}
-				option={getOptions(((sumData / 1000) * 100).toFixed(2))}
+				option={getOptions(
+					((sumData / (micareData.length * 100)) * 100).toFixed(2)
+				)}
 				style={{ height: "11.3rem", widht: "11.3rem" }}
 			/>
 			<div className="text-center">
