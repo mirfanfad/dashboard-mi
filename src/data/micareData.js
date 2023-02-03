@@ -2,7 +2,7 @@ const micareData = [
 	{
 		id: 1,
 		name: "New Markis",
-		value: 94,
+		value: 100,
 		variant: "primary",
 		duedate: "2022-12-31",
 	},
@@ -15,7 +15,7 @@ const micareData = [
 	},
 	{
 		id: 3,
-		name: "Mems",
+		name: "Mems Kepesertaan",
 		value: 90,
 		variant: "primary",
 		duedate: "2023-01-31",
@@ -23,17 +23,18 @@ const micareData = [
 	{
 		id: 4,
 		name: "MiCC",
-		value: 22,
+		value: 24,
 		variant: "warning",
 		duedate: "2023-03-31",
 	},
 	{
 		id: 5,
-		name: "Promis",
+		name: "Promis MVP MiCare",
 		value: 90,
 		variant: "primary",
 		duedate: "2022-12-31",
 	},
+
 	{
 		id: 6,
 		name: "Provider Portal",
@@ -63,19 +64,26 @@ const micareData = [
 		duedate: "2023-06-30",
 	},
 	{
-		id: 10,
-		name: "Reporting",
-		value: 0,
-		variant: "warning",
-		duedate: "2023-07-31",
-	},
-	{
-		id: 11,
-		name: "System Integration Test",
-		value: 0,
+		id: 12,
+		name: "Promis Reguler",
+		value: 20,
 		variant: "primary",
-		duedate: "2023-08-31",
+		duedate: "2023-06-30",
 	},
+	// {
+	// 	id: 10,
+	// 	name: "Reporting",
+	// 	value: 0,
+	// 	variant: "warning",
+	// 	duedate: "2023-07-31",
+	// },
+	// {
+	// 	id: 11,
+	// 	name: "System Integration Test",
+	// 	value: 0,
+	// 	variant: "primary",
+	// 	duedate: "2023-08-31",
+	// },
 ];
 
 export default micareData;

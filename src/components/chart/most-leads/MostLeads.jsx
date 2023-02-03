@@ -20,9 +20,12 @@ import micareData from "../../../data/micareData";
 import ProjectTable from "../detail-chart/ProjectTable";
 import moment from "moment/moment";
 import signalImg from "../../../assets/img/icons/signal.png";
+import docsImg from "../../../assets/img/icons/docs.png";
 import SimpleBarReact from "simplebar-react";
 import issueData from "../../../data/issueData";
 import Issue from "./Issue";
+import Notes from "./Notes";
+import notesData from "../../../data/notesData";
 
 const MostLeads = () => {
 	const [show, setShow] = useState(false);
@@ -232,6 +235,35 @@ const MostLeads = () => {
 										icon={item.icon}
 										title={item.title}
 										description={item.description}
+									/>
+								))}
+							</div>
+						</Card.Body>
+					</Card>
+				</Col>
+			</Row>
+			<Row className="g-3">
+				<Col md={12} xxl={12}>
+					<Card className="mt-3">
+						{/* <Background image={bg3} className="bg-card" /> */}
+						<Card.Header as={Flex} alignItems="center">
+							<img
+								src={docsImg}
+								alt="intelligence"
+								height={30}
+								className="me-2"
+							/>
+							<h5 className="fw-normal text-800 mb-0">Notes Project</h5>
+						</Card.Header>
+						<Card.Body className="p-0 overflow-auto">
+							<div className="pt-0 px-card" style={{ maxHeight: 450 }}>
+								{notesData.map((item, index) => (
+									<Notes
+										key={index}
+										icon={item.icon}
+										title={item.title}
+										description={item.description}
+										linkUrl={item.linkUrl}
 									/>
 								))}
 							</div>
