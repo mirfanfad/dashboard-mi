@@ -1,0 +1,475 @@
+{
+	"apps": [
+		{
+			"id": "fe6a71ce-1db4-411b-9c48-be8d7dcb931c",
+			"name": "New Markis",
+			"value": 100,
+			"variant": "primary",
+			"duedate": "2022-12-31",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+		{
+			"id": "94ed6147-e342-41c3-a221-500be7be2370",
+			"name": "New Aktuw",
+			"value": 75,
+			"variant": "warning",
+			"duedate": "2023-05-31",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+		{
+			"id": "66ca735e-f64e-4786-a781-e8a611f86159",
+			"name": "Mems Kepesertaan",
+			"value": 90,
+			"variant": "primary",
+			"duedate": "2023-01-31",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+		{
+			"id": "d0f1b215-b0d9-428d-a3db-3ee7e328c413",
+			"name": "MiCC",
+			"value": 24,
+			"variant": "warning",
+			"duedate": "2023-03-31",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+		{
+			"id": "c9073e4f-a7a8-4085-8b3e-60444327ca64",
+			"name": "Promis MVP MiCare",
+			"value": 90,
+			"variant": "primary",
+			"duedate": "2022-12-31",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+
+		{
+			"id": "1b34d956-8c80-4af9-8af1-a29c99d15e8f",
+			"name": "Provider Portal",
+			"value": 4,
+			"variant": "warning",
+			"duedate": "2023-02-28",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+		{
+			"id": "6308acf9-ff3f-43ef-b11f-c1de64434559",
+			"name": "Claim",
+			"value": 0,
+			"variant": "primary",
+			"duedate": "2023-06-30",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+		{
+			"id": "bc4e32f3-1b51-4733-b6d6-17b31fdc7afc",
+			"name": "Bridging to FIS",
+			"value": 0,
+			"variant": "warning",
+			"duedate": "2023-06-30",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+		{
+			"id": "f558fedf-47bd-4c1f-8617-8d45a3ea1433",
+			"name": "Mems Collection",
+			"value": 0,
+			"variant": "primary",
+			"duedate": "2023-06-30",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		},
+		{
+			"id": "61a61c12-f4a6-4818-8d7e-5d5eef57b9b6",
+			"name": "Promis Reguler",
+			"value": 20,
+			"variant": "primary",
+			"duedate": "2023-06-30",
+			"details": [
+				{
+					"id": 1,
+					"name": "Development",
+					"iconColor": "text-primary",
+					"percentage": 100
+				},
+				{
+					"id": 2,
+					"name": "Integrasi",
+					"iconColor": "text-warning",
+					"percentage": 100
+				},
+				{
+					"id": 3,
+					"name": "UAT",
+					"iconColor": "text-secondary",
+					"percentage": 100
+				},
+				{
+					"id": 4,
+					"name": "Fix Bug",
+					"iconColor": "text-info",
+					"percentage": 100
+				},
+				{
+					"id": 5,
+					"name": "Delivery",
+					"iconColor": "text-success",
+					"percentage": 100
+				},
+				{
+					"id": 6,
+					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"iconColor": "text-danger",
+					"percentage": 100
+				}
+			]
+		}
+	],
+	"issues": [
+		{
+			"id": "8b087663-1129-4054-9d2f-8ae93831b8c7",
+			"title": "Pemenuhan Tenaga Kerja IT (Developer)",
+			"description": "Human Capital (HC)"
+		},
+		{
+			"id": "93e95e14-d92a-45bb-8c19-d81b8b3fe70e",
+			"title": "Diskusi Claim Status Code & Bisnis Proses yang baru.",
+			"description": "Pelkes & IT"
+		}
+	],
+	"notes": [
+		{
+			"id": "376a6fb6-2bb8-40b3-afbe-e1b4a632ded1",
+			"description": "New Markis",
+			"title": "Go Live New Markis pada tanggal 1 Februari 2023, meliputi modul: Data Referensi, Pipeline, Sales Activity, Training, Komisi Agen, Reporting, Dashboard dan Mobile Apps.",
+			"linkUrl": "https://newmarkis.inhealth.co.id/"
+		}
+	]
+}
