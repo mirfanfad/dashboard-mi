@@ -76,18 +76,7 @@
 					"iconColor": "text-info",
 					"percentage": 100
 				},
-				{
-					"id": 5,
-					"name": "Delivery",
-					"iconColor": "text-success",
-					"percentage": 100
-				},
-				{
-					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
-					"iconColor": "text-danger",
-					"percentage": 100
-				}
+				
 			]
 		},
 		{
