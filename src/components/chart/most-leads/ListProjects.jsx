@@ -8,7 +8,6 @@ import {
 	Tooltip,
 } from "react-bootstrap";
 import classNames from "classnames";
-import Flex from "../../common/Flex";
 import moment from "moment/moment";
 
 const ListProjects = ({ item, handleShowModal }) => {
@@ -19,8 +18,8 @@ const ListProjects = ({ item, handleShowModal }) => {
 				className={classNames("g-0 align-items-center pb-3", {
 					// "border-top pt-3": index !== 0,
 				})}
-				// onClick={() => handleShowModal()}
-				// style={{ cursor: "pointer" }}
+				onClick={() => handleShowModal()}
+				style={{ cursor: "pointer" }}
 			>
 				<Col className="pe-4">
 					<h6 className="fs--1 text-600">{name}</h6>

@@ -9,38 +9,14 @@
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "Quotation",
 					"iconColor": "text-primary",
 					"percentage": 100
 				},
 				{
 					"id": 2,
-					"name": "Integrasi",
+					"name": "Closing",
 					"iconColor": "text-warning",
-					"percentage": 100
-				},
-				{
-					"id": 3,
-					"name": "UAT",
-					"iconColor": "text-secondary",
-					"percentage": 100
-				},
-				{
-					"id": 4,
-					"name": "Fix Bug",
-					"iconColor": "text-info",
-					"percentage": 100
-				},
-				{
-					"id": 5,
-					"name": "Delivery",
-					"iconColor": "text-success",
-					"percentage": 100
-				},
-				{
-					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
-					"iconColor": "text-danger",
 					"percentage": 100
 				}
 			]
@@ -48,123 +24,117 @@
 		{
 			"id": "94ed6147-e342-41c3-a221-500be7be2370",
 			"name": "New Aktuw",
-			"value": 75,
+			"value": 86.67,
 			"variant": "warning",
 			"duedate": "2023-05-31",
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "Quotation",
 					"iconColor": "text-primary",
 					"percentage": 100
 				},
 				{
 					"id": 2,
-					"name": "Integrasi",
+					"name": "Pricing Engine",
 					"iconColor": "text-warning",
 					"percentage": 100
 				},
 				{
 					"id": 3,
-					"name": "UAT",
+					"name": "Closing",
 					"iconColor": "text-secondary",
-					"percentage": 100
-				},
-				{
-					"id": 4,
-					"name": "Fix Bug",
-					"iconColor": "text-info",
-					"percentage": 100
+					"percentage": 60
 				}
 			]
 		},
 		{
 			"id": "66ca735e-f64e-4786-a781-e8a611f86159",
 			"name": "Mems Kepesertaan",
-			"value": 90,
+			"value": 95,
 			"variant": "primary",
 			"duedate": "2023-01-31",
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "Proses Back End Entrollment",
 					"iconColor": "text-primary",
-					"percentage": 100
+					"percentage": 90
 				},
 				{
 					"id": 2,
-					"name": "Integrasi",
+					"name": "Display List membeship Data",
 					"iconColor": "text-warning",
-					"percentage": 100
-				},
-				{
-					"id": 3,
-					"name": "UAT",
-					"iconColor": "text-secondary",
-					"percentage": 100
-				},
-				{
-					"id": 4,
-					"name": "Fix Bug",
-					"iconColor": "text-info",
-					"percentage": 100
-				},
-				{
-					"id": 5,
-					"name": "Delivery",
-					"iconColor": "text-success",
-					"percentage": 100
-				},
-				{
-					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
-					"iconColor": "text-danger",
-					"percentage": 100
+					"percentage": 90
 				}
 			]
 		},
 		{
 			"id": "d0f1b215-b0d9-428d-a3db-3ee7e328c413",
 			"name": "MiCC",
-			"value": 24,
+			"value": 30,
 			"variant": "warning",
 			"duedate": "2023-03-31",
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "Admission",
 					"iconColor": "text-primary",
 					"percentage": 100
 				},
 				{
 					"id": 2,
-					"name": "Integrasi",
+					"name": "Claim Inquiry",
 					"iconColor": "text-warning",
-					"percentage": 100
+					"percentage": 70
 				},
 				{
 					"id": 3,
-					"name": "UAT",
+					"name": "Inpatient Monitoring",
 					"iconColor": "text-secondary",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 4,
-					"name": "Fix Bug",
+					"name": "Discharge",
 					"iconColor": "text-info",
-					"percentage": 100
+					"percentage": 30
 				},
 				{
 					"id": 5,
-					"name": "Delivery",
+					"name": "Member Inquiry",
 					"iconColor": "text-success",
 					"percentage": 100
 				},
 				{
 					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"name": "BU Inforce",
 					"iconColor": "text-danger",
-					"percentage": 100
+					"percentage": 0
+				},
+				{
+					"id": 7,
+					"name": "E-document",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 8,
+					"name": "GL Monitoring",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 9,
+					"name": "Invoice Tracking",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 10,
+					"name": "Provider List",
+					"iconColor": "text-danger",
+					"percentage": 0
 				}
 			]
 		},
@@ -177,39 +147,9 @@
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "Management Provider",
 					"iconColor": "text-primary",
-					"percentage": 100
-				},
-				{
-					"id": 2,
-					"name": "Integrasi",
-					"iconColor": "text-warning",
-					"percentage": 100
-				},
-				{
-					"id": 3,
-					"name": "UAT",
-					"iconColor": "text-secondary",
-					"percentage": 100
-				},
-				{
-					"id": 4,
-					"name": "Fix Bug",
-					"iconColor": "text-info",
-					"percentage": 100
-				},
-				{
-					"id": 5,
-					"name": "Delivery",
-					"iconColor": "text-success",
-					"percentage": 100
-				},
-				{
-					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
-					"iconColor": "text-danger",
-					"percentage": 100
+					"percentage": 90
 				}
 			]
 		},
@@ -217,90 +157,144 @@
 		{
 			"id": "1b34d956-8c80-4af9-8af1-a29c99d15e8f",
 			"name": "Provider Portal",
-			"value": 4,
+			"value": 20,
 			"variant": "warning",
 			"duedate": "2023-02-28",
 			"details": [
 				{
-					"id": 1,
-					"name": "Development",
-					"iconColor": "text-primary",
-					"percentage": 100
-				},
-				{
 					"id": 2,
-					"name": "Integrasi",
+					"name": "Egibility (pendaftaran Pasien)",
 					"iconColor": "text-warning",
-					"percentage": 100
+					"percentage": 90
 				},
 				{
 					"id": 3,
-					"name": "UAT",
+					"name": "Dishcarge (pengesahan & Tagihan)",
 					"iconColor": "text-secondary",
-					"percentage": 100
+					"percentage": 90
 				},
 				{
 					"id": 4,
-					"name": "Fix Bug",
+					"name": "E-Card",
 					"iconColor": "text-info",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 5,
-					"name": "Delivery",
+					"name": "Void (Pembatalan Pendaftaran)",
 					"iconColor": "text-success",
-					"percentage": 100
+					"percentage": 80
 				},
 				{
 					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"name": "Pre Admission",
 					"iconColor": "text-danger",
-					"percentage": 100
+					"percentage": 0
+				},
+				{
+					"id": 7,
+					"name": "Open Case",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 8,
+					"name": "Pending Claim",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 9,
+					"name": "E-Document",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 10,
+					"name": "E-Billing",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 11,
+					"name": "Invoice Tracking",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 12,
+					"name": "Outstanding Claim",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 13,
+					"name": "Tarif",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 14,
+					"name": "Maintenance",
+					"iconColor": "text-danger",
+					"percentage": 0
 				}
 			]
 		},
 		{
 			"id": "6308acf9-ff3f-43ef-b11f-c1de64434559",
 			"name": "Claim",
-			"value": 0,
+			"value": 5,
 			"variant": "primary",
 			"duedate": "2023-06-30",
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "Reimbursement",
 					"iconColor": "text-primary",
-					"percentage": 100
+					"percentage": 40
 				},
 				{
 					"id": 2,
-					"name": "Integrasi",
+					"name": "claim/Adjusment",
 					"iconColor": "text-warning",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 3,
-					"name": "UAT",
+					"name": "Bacthing",
 					"iconColor": "text-secondary",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 4,
-					"name": "Fix Bug",
+					"name": "bacth expedition",
 					"iconColor": "text-info",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 5,
-					"name": "Delivery",
+					"name": "TVF",
 					"iconColor": "text-success",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
+					"name": "TVF Expedition",
 					"iconColor": "text-danger",
-					"percentage": 100
+					"percentage": 0
+				},
+				{
+					"id": 7,
+					"name": "Follow Up (pending Claim)",
+					"iconColor": "text-danger",
+					"percentage": 0
+				},
+				{
+					"id": 8,
+					"name": "Invoice Tracking",
+					"iconColor": "text-danger",
+					"percentage": 0
 				}
 			]
 		},
@@ -313,39 +307,9 @@
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "API Bridging",
 					"iconColor": "text-primary",
-					"percentage": 100
-				},
-				{
-					"id": 2,
-					"name": "Integrasi",
-					"iconColor": "text-warning",
-					"percentage": 100
-				},
-				{
-					"id": 3,
-					"name": "UAT",
-					"iconColor": "text-secondary",
-					"percentage": 100
-				},
-				{
-					"id": 4,
-					"name": "Fix Bug",
-					"iconColor": "text-info",
-					"percentage": 100
-				},
-				{
-					"id": 5,
-					"name": "Delivery",
-					"iconColor": "text-success",
-					"percentage": 100
-				},
-				{
-					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
-					"iconColor": "text-danger",
-					"percentage": 100
+					"percentage": 0
 				}
 			]
 		},
@@ -358,84 +322,48 @@
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "Proses Back End Collection",
 					"iconColor": "text-primary",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 2,
-					"name": "Integrasi",
+					"name": "Display Collection",
 					"iconColor": "text-warning",
-					"percentage": 100
-				},
-				{
-					"id": 3,
-					"name": "UAT",
-					"iconColor": "text-secondary",
-					"percentage": 100
-				},
-				{
-					"id": 4,
-					"name": "Fix Bug",
-					"iconColor": "text-info",
-					"percentage": 100
-				},
-				{
-					"id": 5,
-					"name": "Delivery",
-					"iconColor": "text-success",
-					"percentage": 100
-				},
-				{
-					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
-					"iconColor": "text-danger",
-					"percentage": 100
+					"percentage": 0
 				}
 			]
 		},
 		{
 			"id": "61a61c12-f4a6-4818-8d7e-5d5eef57b9b6",
 			"name": "Promis Reguler",
-			"value": 20,
+			"value": 40,
 			"variant": "primary",
 			"duedate": "2023-06-30",
 			"details": [
 				{
 					"id": 1,
-					"name": "Development",
+					"name": "E-Credential",
 					"iconColor": "text-primary",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 2,
-					"name": "Integrasi",
+					"name": "E-PKS",
 					"iconColor": "text-warning",
-					"percentage": 100
+					"percentage": 0
 				},
 				{
 					"id": 3,
-					"name": "UAT",
+					"name": "Selected Provider",
 					"iconColor": "text-secondary",
-					"percentage": 100
+					"percentage": 80
 				},
 				{
 					"id": 4,
-					"name": "Fix Bug",
+					"name": "Selected Provider Plan",
 					"iconColor": "text-info",
-					"percentage": 100
-				},
-				{
-					"id": 5,
-					"name": "Delivery",
-					"iconColor": "text-success",
-					"percentage": 100
-				},
-				{
-					"id": 6,
-					"name": "Re-Testing (Fix Bug, Maintenance etc)",
-					"iconColor": "text-danger",
-					"percentage": 100
+					"percentage": 80
 				}
 			]
 		}
@@ -448,8 +376,8 @@
 		},
 		{
 			"id": "93e95e14-d92a-45bb-8c19-d81b8b3fe70e",
-			"title": "Diskusi Claim Status Code & Bisnis Proses yang baru.",
-			"description": "Pelkes & IT"
+			"title": "Divert, ICD X, LOA & Payor Fund Type.",
+			"description": "All Division"
 		}
 	],
 	"notes": [

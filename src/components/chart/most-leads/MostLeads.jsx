@@ -16,53 +16,81 @@ import bg1 from "../../../assets/img/icons/spot-illustrations/corner-1.png";
 import bg2 from "../../../assets/img/icons/spot-illustrations/corner-2.png";
 import bg3 from "../../../assets/img/icons/spot-illustrations/corner-3.png";
 import ListProjects from "./ListProjects";
-import micareData from "../../../data/micareData";
-import ProjectTable from "../detail-chart/ProjectTable";
+import DetailProjectTable from "../detail-chart/DetailProjectTable";
 import moment from "moment/moment";
 import signalImg from "../../../assets/img/icons/signal.png";
 import docsImg from "../../../assets/img/icons/docs.png";
-import SimpleBarReact from "simplebar-react";
-import issueData from "../../../data/issueData";
 import Issue from "./Issue";
 import Notes from "./Notes";
-import notesData from "../../../data/notesData";
+import axios from "axios";
+import db from "../../../../db.json";
 
 const MostLeads = () => {
+	const [apps, setApps] = useState(db.apps);
+	const [issues, setIssues] = useState(db.issues);
+	const [notes, setNotes] = useState(db.notes);
+
 	const [show, setShow] = useState(false);
 	const [title, setTitle] = useState("");
 	const [dueDate, setDueDate] = useState("");
 	const [onSchedule, setOnSchedule] = useState(0);
 	const [overtime, setOvertime] = useState(0);
-	const [totalApps, setTotalApps] = useState(micareData.length);
+	const [totalApps, setTotalApps] = useState(0);
 	const [done, setDone] = useState(0);
 	const [onProgress, setOnProgress] = useState(0);
 	const [waiting, setWaiting] = useState(0);
 	const [endDate, setEndDate] = useState("");
+	const [details, setDetails] = useState([]);
 
-	const handleShowModal = (title, dueDate) => {
+	// useEffect(() => {
+	// 	const fetchData = async () => {
+	// 		await axios
+	// 			.get(`${import.meta.env.VITE_API_BASE_URL_API}/apps`)
+	// 			.then((response) => {
+	// 				setApps(response.data);
+	// 				console.log(response.data);
+	// 			});
+	// 		await axios
+	// 			.get(`${import.meta.env.VITE_API_BASE_URL_API}/issues`)
+	// 			.then((response) => {
+	// 				setIssues(response.data);
+	// 			});
+	// 		await axios
+	// 			.get(`${import.meta.env.VITE_API_BASE_URL_API}/notes`)
+	// 			.then((response) => {
+	// 				setNotes(response.data);
+	// 			});
+	// 	};
+	// 	fetchData();
+	// }, []);
+
+	const handleShowModal = (title, dueDate, detail) => {
 		setTitle(title);
 		setDueDate(dueDate);
+		setDetails(detail);
 		setShow(true);
 	};
 
 	useEffect(() => {
-		setTotalApps(micareData.length);
+		setTotalApps(apps.length);
 		setOnSchedule(
-			micareData.filter((data) => new Date(data.duedate) > new Date()).length
+			apps.filter((data) => new Date(data.duedate) > new Date()).length
 		);
 		setOvertime(
-			micareData.filter((data) => new Date(data.duedate) < new Date()).length
+			apps.filter((data) => new Date(data.duedate) < new Date()).length
 		);
-		setDone(micareData.filter((data) => data.value === 100).length);
-		setOnProgress(micareData.filter((data) => data.value > 0).length);
-		setWaiting(micareData.filter((data) => data.value === 0).length);
+		setDone(apps.filter((data) => data.value === 100).length);
+		setOnProgress(
+			apps.filter((data) => data.value > 0 && data.value < 100).length
+		);
+		setWaiting(apps.filter((data) => data.value === 0).length);
 		setEndDate(
-			micareData.reduce((max, obj) => {
+			apps.reduce((max, obj) => {
 				const date = new Date(obj.duedate);
 				return max === null || date > max ? date : max;
 			}, null)
 		);
-	}, [micareData]);
+	}, [apps]);
 
 	return (
 		<>
@@ -122,7 +150,7 @@ const MostLeads = () => {
 						<Background image={bg2} className="bg-card" />
 						<Card.Body as={Row}>
 							<Col md={12} xxl={12} className="mb-xxl-1">
-								<Chart micareData={micareData} />
+								<Chart micareData={apps} />
 							</Col>
 						</Card.Body>
 					</Card>
@@ -181,30 +209,30 @@ const MostLeads = () => {
 						{/* <Background image={bg3} className="bg-card" /> */}
 						<Card.Body as={Row}>
 							<Col xxl={12} md={6}>
-								{micareData.map(
+								{apps.map(
 									(item, index) =>
-										index < micareData.length / 2 && (
+										index < apps.length / 2 && (
 											<ListProjects
 												item={item}
 												key={item.id}
 												index={index}
 												handleShowModal={() =>
-													handleShowModal(item.name, item.duedate)
+													handleShowModal(item.name, item.duedate, item.details)
 												}
 											/>
 										)
 								)}
 							</Col>
 							<Col xxl={12} md={6}>
-								{micareData.map(
+								{apps.map(
 									(item, index) =>
-										index >= micareData.length / 2 && (
+										index >= apps.length / 2 && (
 											<ListProjects
 												item={item}
 												key={item.id}
 												index={index}
 												handleShowModal={() =>
-													handleShowModal(item.name, item.duedate)
+													handleShowModal(item.name, item.duedate, item.details)
 												}
 											/>
 										)
@@ -229,7 +257,7 @@ const MostLeads = () => {
 						</Card.Header>
 						<Card.Body className="p-0 overflow-auto">
 							<div className="pt-0 px-card" style={{ maxHeight: 450 }}>
-								{issueData.map((item, index) => (
+								{issues.map((item, index) => (
 									<Issue
 										key={index}
 										icon={item.icon}
@@ -257,7 +285,7 @@ const MostLeads = () => {
 						</Card.Header>
 						<Card.Body className="p-0 overflow-auto">
 							<div className="pt-0 px-card" style={{ maxHeight: 450 }}>
-								{notesData.map((item, index) => (
+								{notes.map((item, index) => (
 									<Notes
 										key={index}
 										icon={item.icon}
@@ -275,15 +303,20 @@ const MostLeads = () => {
 			{/* Modal Detail */}
 
 			<Modal show={show} fullscreen={"md-down"} onHide={() => setShow(false)}>
-				<Modal.Header>
-					<Modal.Title>{title}</Modal.Title>
+				{/* <Background image={bg3} className="bg-card" /> */}
+				{/* <Modal.Header>
+					<Modal.Title>Detail</Modal.Title>
+				</Modal.Header> */}
+				<Modal.Body className="bg-light">
 					<CloseButton
-						className="btn btn-circle btn-sm transition-base p-0"
+						className="btn btn-circle btn-sm transition-base p-0 float-end z-index-99"
 						onClick={() => setShow(false)}
 					/>
-				</Modal.Header>
-				<Modal.Body className="bg-light">
-					<ProjectTable dueDate={dueDate} />
+					<DetailProjectTable
+						dueDate={dueDate}
+						title={title}
+						details={details}
+					/>
 				</Modal.Body>
 			</Modal>
 		</>
