@@ -24,7 +24,7 @@
 		{
 			"id": "94ed6147-e342-41c3-a221-500be7be2370",
 			"name": "New Aktuw",
-			"value": 86.67,
+			"value": 87,
 			"variant": "warning",
 			"duedate": "2023-05-31",
 			"details": [
@@ -51,7 +51,7 @@
 		{
 			"id": "66ca735e-f64e-4786-a781-e8a611f86159",
 			"name": "Mems Kepesertaan",
-			"value": 95,
+			"value": 97,
 			"variant": "primary",
 			"duedate": "2023-01-31",
 			"details": [
@@ -59,20 +59,20 @@
 					"id": 1,
 					"name": "Proses Back End Entrollment",
 					"iconColor": "text-primary",
-					"percentage": 90
+					"percentage": 96
 				},
 				{
 					"id": 2,
 					"name": "Display List membeship Data",
 					"iconColor": "text-warning",
-					"percentage": 90
+					"percentage": 96
 				}
 			]
 		},
 		{
 			"id": "d0f1b215-b0d9-428d-a3db-3ee7e328c413",
 			"name": "MiCC",
-			"value": 30,
+			"value": 35,
 			"variant": "warning",
 			"duedate": "2023-03-31",
 			"details": [
@@ -157,7 +157,7 @@
 		{
 			"id": "1b34d956-8c80-4af9-8af1-a29c99d15e8f",
 			"name": "Provider Portal",
-			"value": 20,
+			"value": 25,
 			"variant": "warning",
 			"duedate": "2023-02-28",
 			"details": [
@@ -244,7 +244,7 @@
 		{
 			"id": "6308acf9-ff3f-43ef-b11f-c1de64434559",
 			"name": "Claim",
-			"value": 5,
+			"value": 6,
 			"variant": "primary",
 			"duedate": "2023-06-30",
 			"details": [
@@ -371,12 +371,12 @@
 	"issues": [
 		{
 			"id": "8b087663-1129-4054-9d2f-8ae93831b8c7",
-			"title": "Pemenuhan Tenaga Kerja IT (Developer)",
+			"title": "Pemenuhan Tenaga Kerja IT (Developer & Tester)",
 			"description": "Human Capital (HC)"
 		},
 		{
 			"id": "93e95e14-d92a-45bb-8c19-d81b8b3fe70e",
-			"title": "Divert, ICD X, LOA & Payor Fund Type.",
+			"title": "Divert, ICD X, LOA, Payor Fund Type, Suspend BU & Open Closed Excess.",
 			"description": "All Division"
 		}
 	],
