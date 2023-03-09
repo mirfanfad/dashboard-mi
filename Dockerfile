@@ -1,23 +1,27 @@
 # Use an official lightweight Alpine Linux as a parent image
 FROM node:17-alpine
 
-# Set working directory
+# Set the working directory
 WORKDIR /app
 
-# Install Node.js and npm
-RUN apk add --update nodejs npm
-
-# Copy package.json and package-lock.json files to the container
+# Copy the package.json and package-lock.json files
 COPY package*.json ./
 
-# Install app dependencies
-RUN npm install
+# Install dependencies
+RUN npm install --force
 
-# Copy app files to the container
+# Copy the rest of the application code
 COPY . .
 
-# Expose port 3000
-EXPOSE 3000
+# Build the application
+RUN npm run build
 
-# Start the app
-CMD ["npm", "start"]
+# Expose the port that the application will run on
+EXPOSE 6969
+
+# Set environment variables for the subdomain and the host port
+ENV VITE_PUBLIC_PATH=/dashboard-mi/
+ENV VITE_PORT=6969
+
+# Start the application
+CMD ["npm", "run", "dev"]
